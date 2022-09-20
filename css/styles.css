@@ -106,7 +106,7 @@ a:hover {
     background: rgba(0, 0, 0, 0.87);
     padding: 3px 0;
     height: 101px;
-    border-top: 1px solid #3daff6;
+    margin-top: 0px
 }
 #menu-sticky-wrapper {
     z-index: 2;
@@ -119,6 +119,7 @@ a:hover {
     width: 100%;
     height: 100%;
     display: block;
+    padding-top: 20px;
 }
 #menu {
     z-index: 999;
@@ -126,8 +127,7 @@ a:hover {
 .navbar-default {
     background: transparent;
     padding: 15px 0;
-    border-top: 40px solid black;
-
+    margin-top: -20px;
 }
 .navbar-default .navbar-brand {
     padding: 7px;
